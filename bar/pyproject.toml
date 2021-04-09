@@ -1,0 +1,22 @@
+[project]
+name = "bar"
+version = "0.0.1"
+description = ""
+authors = [
+    {name = "林玮 (Jade Lin)", email = "linw1995@icloud.com"},
+]
+dependencies = []
+requires-python = ">=2.7"
+dynamic = ["classifiers"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+includes = ["bar"]
